@@ -4,7 +4,7 @@ local P = require("avante.providers")
 ---@class AvanteProviderFunctor
 local M = {}
 
-M.api_key_name = "" -- Ollama typically doesn't require API keys for local use
+M.api_key_name = "OPENAI_API_KEY"
 
 M.role_map = {
   user = "user",
